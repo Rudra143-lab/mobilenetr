@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Fuggles&display=swap');
+body{
+    background-color: plum;
+}
+
+.heading_div{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: Lobster;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("Lobster-Regular.ttf");
+}
+
+
+#camera{
+    border: slateblue dashed 4px;
+    height: 34%;
+    width: 60%;
+}
+
+#result{
+    border: slateblue dashed 4px;
+    height: 34%;
+    width: 60%;
+}
+
+.heading_div{
+    background-color:white;
+    border: slateblue 6px solid;
+}
+
+ .copyright{ 
+    bottom: 0;
+    position: fixed;
+    background-color: wheat;
+    width: 100%;
+    font-family: 'Creepster', cursive;;
+    font-weight: 700;
+    font-size: 18px;
+} 
+
+#object_name{
+    color: olive;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+   
+}
+
+.footer_div{
+    
+    background-color: saddlebrown;
+    border: wheat 8px solid;
+    border-radius: 10px;
+    color: white;
+    height: 12%;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.main_div{
+    background-color: lightskyblue;
+    color: whitesmoke;
+    box-shadow: lightyellow 20px 20px  28px;
+    border: wheat 8px solid;
+    width: 50%;
+    display: block;
+}
+
+.main_div2{
+    background-color: lightskyblue;
+    color: whitesmoke;
+    box-shadow: lightyellow 20px 20px  28px;
+    border: wheat 8px solid;
+    width: 50%;
+    display: block;
+}
+
+.btn-success,
+.btn-warning{
+    width: 35%;
+    font-size:auto 16px;
+}
+
+
+
+.main_div label{
+    font-size: 16px;
+}
